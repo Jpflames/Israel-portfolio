@@ -8,24 +8,25 @@ import Navbar from '@/components/Navbar'
 
 export default function Home() {
   const projects = [
+    
+    {
+      title: "A SALON BOOKING WEB APP, SMART AND USER FRIENDLY",
+      description: "A collaborative task management tool with real-time updates and team workspace features.",
+      tech: ["React", "Nextjs", "Tailwind", "API"],
+      demoLink: "https://debby-spa-booking.vercel.app/",
+      codeLink: "#"
+    },
+    {
+      title: "   QuickTask – 3-Minute Productivity Timer",
+      description: "A minimal productivity app that helps users break tasks into 3-minute focus sessions, JUST START timer.",
+      tech: ["Next.js", "OpenAI API", "Vercel AI SDK", "Tailwind CSS"],
+      demoLink: "https://quicktask-snowy.vercel.app/",
+      codeLink: "#"
+    },
     {
       title: "E-Commerce Platform",
       description: "A full-stack e-commerce platform with real-time inventory, payment processing, and admin dashboard.",
       tech: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      demoLink: "#",
-      codeLink: "#"
-    },
-    {
-      title: "Task Management App",
-      description: "A collaborative task management tool with real-time updates and team workspace features.",
-      tech: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-      demoLink: "#",
-      codeLink: "#"
-    },
-    {
-      title: "AI Content Generator",
-      description: "An AI-powered content generation tool that creates unique articles and social media posts.",
-      tech: ["Next.js", "OpenAI API", "Vercel AI SDK", "Tailwind CSS"],
       demoLink: "#",
       codeLink: "#"
     }
@@ -73,10 +74,10 @@ export default function Home() {
               </a>
             </div>
             <div className="flex gap-6 mt-8">
-              <a href="https://github.com/jpcodes" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
+              <a href="https://github.com/Jpflames" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
                 <FaGithub />
               </a>
-              <a href="https://linkedin.com/in/jpcodes" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/israel-johnpaul-571839213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
                 <FaLinkedin />
               </a>
               <a href="https://twitter.com/jpcodes" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
@@ -212,7 +213,7 @@ export default function Home() {
               Feel free to reach out if you'd like to work together!
             </p>
             <a
-              href="mailto:contact@jpcodes.com"
+              href="jpcodes9@gmail.com"
               className="btn-primary inline-block"
             >
               Send Message
@@ -235,7 +236,7 @@ export default function Home() {
               <a href="https://github.com/jpcodes" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
                 <FaGithub />
               </a>
-              <a href="https://linkedin.com/in/jpcodes" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
+              <a href="" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
                 <FaLinkedin />
               </a>
               <a href="https://twitter.com/jpcodes" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-600 hover:text-primary dark:text-dimWhite dark:hover:text-primary transition-colors">
